@@ -1,0 +1,64 @@
+
+<html>
+  <head>
+    <meta name="theme-color" content="#d609c5" />
+    <link rel="icon" href="y.jpg" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Y19 Match Maker</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900;&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="back">
+      <div class="open"><img src="PinClipart.com_phone-images-clip-art_360232.png" class="ret"></div>
+      <div class="holo">
+        <div class="til-name">Y19<br>MATCH MAKER</div>
+        <div class="holo-text">
+          Find your match with an algorithm that calculates love percentage
+          between two names.
+        </div>
+        <div class="start" onclick="start()">START</div>
+      </div>
+
+      <div class="mid">
+        <input type="text" class="inp" placeholder="enter your name here" required/>
+        <div class="gender">
+          <div class="male"></div>
+          <div class="female"></div>
+        </div>
+        <a href="#" class="main-b">FIND</a>
+      </div>
+
+      <div class="load-back">
+      <div class="load">
+        <img src="giphy.gif" class="load-img" alt="" />
+    </div>
+        <progress value="0" max="5" id="progressBar"></progress>
+        <div class="load-text"></div>
+      </div>
+
+      <div class="result">
+      </div>
+
+      <div class="down">
+        <div class="down-a">
+          <div class="card">
+            <div class="name">
+              <div class="bet">developed by</div>
+              ANUJ SHARMA
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="dom.js"></script>
+    <script src="local.js"></script>
+  </body>
+</html>
